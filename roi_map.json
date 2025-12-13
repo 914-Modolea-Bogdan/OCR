@@ -1,0 +1,293 @@
+﻿{
+  "valabil_pentru_luna_digits": {
+    "roi": [
+      0.155308,
+      0.206512,
+      0.181662,
+      0.27528
+    ],
+    "kind": "digits",
+    "description": "Valabil pentru luna (litere)"
+  },
+  "valabil_pentru_anul": {
+    "roi": [
+      0.155835,
+      0.462896,
+      0.179554,
+      0.524189
+    ],
+    "kind": "digits",
+    "description": "Anul (numeric)"
+  },
+  "cod_indemnizatie": {
+    "roi": [
+      0.154254,
+      0.743199,
+      0.182189,
+      0.806734
+    ],
+    "kind": "digits",
+    "description": "Cod indemnizatie (1-17)",
+    "expected_length": 2,
+    "min_length": 1,
+    "max_length": 2,
+    "margin": 0.0,
+    "auto_trim": 0.02
+  },
+  "cnp": {
+    "roi": [
+      0.2135,
+      0.247,
+      0.2525,
+      0.623
+    ],
+    "kind": "digits",
+    "description": "CNP titular",
+    "expected_length": 13,
+    "min_length": 13,
+    "max_length": 13,
+    "margin": 0.0,
+    "auto_trim": 0.02
+  },
+  "cui": {
+    "roi": [
+      0.488,
+      0.038,
+      0.525,
+      0.388
+    ],
+    "kind": "digits",
+    "description": "CUI unitate",
+    "expected_length": 8,
+    "min_length": 6,
+    "max_length": 10,
+    "margin": 0.02,
+    "auto_trim": 0.06
+  },
+  "cnp_copil": {
+    "roi": [
+      0.236,
+      0.398,
+      0.275,
+      0.754
+    ],
+    "kind": "digits",
+    "description": "CNP copil/pacient",
+    "expected_length": 13,
+    "min_length": 13,
+    "max_length": 13,
+    "margin": 0.0,
+    "auto_trim": 0.02
+  },
+  "initial_checkbox": {
+    "roi": [
+      0.019939,
+      0.774271,
+      0.041984,
+      0.812423
+    ],
+    "kind": "checkbox",
+    "description": "Bifa certificat initial"
+  },
+  "in_continuare_checkbox": {
+    "roi": [
+      0.042731,
+      0.775331,
+      0.064029,
+      0.814542
+    ],
+    "kind": "checkbox",
+    "description": "Bifa certificat in continuare"
+  },
+  "nr_inregistrare": {
+    "roi": [
+      0.337556,
+      0.143497,
+      0.360952,
+      0.272759
+    ],
+    "kind": "digits",
+    "description": "Numar inregistrare"
+  },
+  "data_acordarii": {
+    "roi": [
+      0.36339,
+      0.281054,
+      0.389711,
+      0.426906
+    ],
+    "kind": "date",
+    "description": "Data acordarii",
+    "expected_length": 6,
+    "min_length": 6,
+    "max_length": 6,
+    "margin": 0.035,
+    "auto_trim": 0.08
+  },
+  "nr_zile": {
+    "roi": [
+      0.361927,
+      0.431745,
+      0.389711,
+      0.477367
+    ],
+    "kind": "digits",
+    "description": "Numar zile"
+  },
+  "de_la": {
+    "roi": [
+      0.362902,
+      0.483588,
+      0.387761,
+      0.630131
+    ],
+    "kind": "date",
+    "description": "De la (data inceput)",
+    "expected_length": 6,
+    "min_length": 6,
+    "max_length": 6,
+    "margin": 0.035,
+    "auto_trim": 0.08
+  },
+  "pana_la": {
+    "roi": [
+      0.361989,
+      0.632652,
+      0.389755,
+      0.775196
+    ],
+    "kind": "date",
+    "description": "Pana la (data sfarsit)",
+    "expected_length": 6,
+    "min_length": 6,
+    "max_length": 6,
+    "margin": 0.035,
+    "auto_trim": 0.08
+  },
+  "cod_diagnostic": {
+    "roi": [
+      0.3631,
+      0.777559,
+      0.386979,
+      0.898839
+    ],
+    "kind": "digits",
+    "description": "Cod diagnostic",
+    "expected_length": 3,
+    "min_length": 3,
+    "max_length": 3,
+    "margin": 0.05,
+    "auto_trim": 0.1
+  },
+  "adult_checkbox": {
+    "roi": [
+      0.36246,
+      0.901369,
+      0.386214,
+      0.927888
+    ],
+    "kind": "checkbox",
+    "description": "Bifa adult"
+  },
+  "cod_parafa_medic": {
+    "roi": [
+      0.496513,
+      0.43732,
+      0.516,
+      0.583136
+    ],
+    "kind": "digits",
+    "description": "Cod parafa medic",
+    "expected_length": 6,
+    "min_length": 6,
+    "max_length": 6,
+    "margin": 0.03,
+    "auto_trim": 0.02
+    
+  },
+  "cod_parafa_medic_sef": {
+    "roi": [
+      0.495684,
+      0.750706,
+      0.516414,
+      0.898874
+    ],
+    "kind": "digits",
+    "description": "Cod parafa medic sef",
+    "expected_length": 6,
+    "min_length": 6,
+    "max_length": 6,
+    "margin": 0.03,
+    "auto_trim": 0.08
+  },
+  "cod_urgenta": {
+    "roi": [
+      0.021545,
+      0.530402,
+      0.040263,
+      0.605086
+    ],
+    "kind": "digits",
+    "description": "Cod urgenta medico-chirurgicala",
+    "expected_length": 3,
+    "min_length": 1,
+    "max_length": 3,
+    "margin": 0.0,
+    "auto_trim": 0.02
+  },
+  "data_primirii": {
+    "roi": [
+      0.947266,
+      0.777218,
+      0.971971,
+      0.911828
+    ],
+    "kind": "date",
+    "description": "Data primirii",
+    "expected_length": 6,
+    "min_length": 6,
+    "max_length": 6,
+    "margin": 0.04,
+    "auto_trim": 0.08
+  },
+  "nr_serie_document": {
+    "roi": [
+      0.128747,
+      0.791047,
+      0.155402,
+      0.9358
+    ],
+    "kind": "digits",
+    "description": "Nr. Serie CCMAT"
+  },
+  "serie_document": {
+    "roi": [
+      0.129748,
+      0.662043,
+      0.155286,
+      0.759884
+    ],
+    "kind": "text",
+    "description": "Nr. Serie CCMAT"
+  },
+  "evidenta_cas": {
+    "roi": [
+      0.183358,
+      0.279344,
+      0.202862,
+      0.590976
+    ],
+    "kind": "text",
+    "description": "Asigurat la CAS"
+  },
+  "cas_emitenta": {
+    "roi": [
+      0.521428,
+      0.180692,
+      0.549384,
+      0.362323
+    ],
+    "kind": "text",
+    "description": "Casa emitenta CAS"
+  }
+}

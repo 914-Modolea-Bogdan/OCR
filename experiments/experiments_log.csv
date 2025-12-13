@@ -1,0 +1,2 @@
+timestamp,tag,num_images,mean_field_accuracy,mean_char_accuracy,mean_validation_issues
+20251117_005720,baseline,1,0.0,0.0,0.0
