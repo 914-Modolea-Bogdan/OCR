@@ -12,8 +12,12 @@ from validation import validate_fields
 from ai_corrector import ai_correct_fields
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 CORS(app)
+
+@app.get("/")
+def home():
+    return app.send_static_file("index.html")
 
 @app.route("/api/process", methods=["POST"])
 def process_certificate():
